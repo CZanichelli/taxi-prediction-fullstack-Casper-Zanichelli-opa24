@@ -9,7 +9,8 @@ df = pd.DataFrame(data.json())
 
 
 def main():
-    st.markdown("# Taxi Prediction Dashboard")
+    st.set_page_config(layout="wide")
+    st.header("Taxi Prediction Dashboard")
 
     st.dataframe(df)
 
