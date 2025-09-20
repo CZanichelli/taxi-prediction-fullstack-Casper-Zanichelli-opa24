@@ -3,4 +3,6 @@
 TODO:
     - EDA explore and understand the data ✓
     
-    - Clean the data 
+    - Clean the data ✓
+
+    - Looking for Outliers in my traning data
