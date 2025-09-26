@@ -6,6 +6,6 @@ TODO:
     
     - Clean the data ✓
 
-    - Looking for Outliers in my traning data 
+    - Looking for Outliers in my traning data ✓
 
-    - Correlation and drop irrelevant columns
+    - Correlation and drop irrelevant columns 
