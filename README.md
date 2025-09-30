@@ -8,4 +8,8 @@ TODO:
 
     - Looking for Outliers in my traning data ✓
 
-    - Correlation and drop irrelevant columns 
+    - Correlation and drop irrelevant columns ✓
+
+    - Save to new csv
+
+    - Start building ML models
