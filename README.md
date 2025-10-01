@@ -10,6 +10,10 @@ TODO:
 
     - Correlation and drop irrelevant columns ✓
 
-    - Save to new csv
+    - Save to new csv ✓
 
-    - Start building ML models
+    - Start building ML models ✓
+
+    - Explore diffrent models and pick the best
+
+    -
