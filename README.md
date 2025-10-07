@@ -18,4 +18,14 @@ TODO:
 
     - LinearRegression ✓
 
-    - KNN 
+    - KNN ✓
+
+    - Randomforest ✓
+
+    - Choose one model and train on all data ✓
+
+    - Export with joblib ✓
+
+    - move on to task 3
+
+    
