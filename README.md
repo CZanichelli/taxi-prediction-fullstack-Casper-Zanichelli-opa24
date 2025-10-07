@@ -16,4 +16,6 @@ TODO:
 
     - Explore diffrent models and pick the best
 
-    -
+    - LinearRegression ✓
+
+    - KNN 
