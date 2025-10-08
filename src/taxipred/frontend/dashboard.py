@@ -17,6 +17,7 @@ def set_url_background(image_url):
             background-size: cover;
             background-attachment: fixed; 
             background-position: center;
+            color: black;
         }}
         </style>
         """,
@@ -45,7 +46,7 @@ def main_menu():
     st.set_page_config(layout="wide")
     
     
-    IMAGE_URL = "https://www.stockvault.net/data/2018/09/22/254694/preview16.jpg" 
+    IMAGE_URL = "https://images.pexels.com/photos/19295734/pexels-photo-19295734/free-photo-of-skylt-bil-tak-taxi.jpeg" 
     set_url_background(IMAGE_URL) 
     
     
