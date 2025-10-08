@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_FILE = 'rf_r2_088.joblib'
 SCALER_FILE = 'minmax_scaler.joblib'
 
-MODELS_PATH = BASE_DIR / "models" / MODEL_FILE
+MODEL_PATH = BASE_DIR / "models" / MODEL_FILE
 SCALER_PATH = BASE_DIR / "models" / SCALER_FILE
 
 # Data
