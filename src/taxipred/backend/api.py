@@ -24,15 +24,19 @@ def get_original_data():
 
     df = pd.read_csv(ORIGINAL_DATA_FILE)
 
+    df = df.replace({np.nan: None}) 
+
     return df.to_dict(orient="records")
 
 @app.get("/data/predictions")
 def get_predictions_data():
 
     df = pd.read_csv(PREDICTION_DATA_FILE)
-
+    
+    df = df.replace({np.nan: None}) 
+    
     df_limited = df.head(20)
-
+    
     return df_limited.to_dict(orient="records")
 
 
