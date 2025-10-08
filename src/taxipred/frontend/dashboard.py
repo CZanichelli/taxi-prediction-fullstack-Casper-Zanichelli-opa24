@@ -54,7 +54,7 @@ def main():
         col1, col2 = st.columns([1, 2])
 
         with col1:
-            st.subheader("1. Inmatning")
+            st.subheader("Ange information om resan")
 
             distance = st.number_input(
                 "Sträcka (km):",

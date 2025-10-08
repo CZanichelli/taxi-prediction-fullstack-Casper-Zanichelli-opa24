@@ -35,9 +35,7 @@ def get_predictions_data():
     
     df = df.replace({np.nan: None}) 
     
-    df_limited = df.head(20)
-    
-    return df_limited.to_dict(orient="records")
+    return df.to_dict(orient="records")
 
 
 @app.post("/predict")
