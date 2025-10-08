@@ -56,7 +56,7 @@ def predict_price(trip: TaxiTrip):
     prediction = model.predict(scaled_features)
 
     return {
-        "predicted price": round(float(prediction), 2)
+        "predicted_price": round(float(prediction), 2)
     }
 
 

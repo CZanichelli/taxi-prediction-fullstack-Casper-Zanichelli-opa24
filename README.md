@@ -26,6 +26,16 @@ TODO:
 
     - Export with joblib ✓
 
-    - move on to task 3
+    - move on to task 3 ✓
+
+    - create the bankend ✓
+
+    - create api layer to serve data ✓
+
+    - user input data to predict ✓
+
+    - start with frontend ✓
+
+    - start building the streamlit ✓
 
     
