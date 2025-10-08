@@ -3,6 +3,14 @@ import pandas as pd
 import json
 
 
+TRAFFIC_ENCODING_MAP = {
+    "LÅG": 0,
+    "MEDEL": 1,
+    "HÖG": 2
+
+}
+
+
 class TaxiData:
     def __init__(self):
         self.df = pd.read_csv(ORIGINAL_DATA_FILE)
