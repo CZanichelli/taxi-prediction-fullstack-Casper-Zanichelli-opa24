@@ -4,9 +4,9 @@ import json
 
 
 TRAFFIC_ENCODING_MAP = {
-    "LÅG": 0,
+    "LÅG": 2,
     "MEDEL": 1,
-    "HÖG": 2
+    "HÖG": 0
 
 }
 
